@@ -1,24 +1,36 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-# Intellij
-.idea/
-*.iml
-*.iws
+.DS_Store
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+logs
+.log
+*/logs
+*/logs/*
+*/catalina.base_IS_UNDEFINED
+*/catalina.base_IS_UNDEFINED/*
+spy.log
+.git
+*/.git/*
+.svn
+_svn
 
-
-### Eclipse ###
+### STS ###
 .apt_generated
+.deployables
 .classpath
 .factorypath
 .project
 .settings
 .springBeans
 .sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
 
 ### NetBeans ###
 /nbproject/private/
@@ -26,12 +38,7 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+build/
 
 ### VS Code ###
 .vscode/
-
-### Mac OS ###
-.DS_Store
-
-# svn
-.svn/
